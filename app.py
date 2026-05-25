@@ -10,9 +10,9 @@ app = Flask(__name__)
 # LOAD MODEL & VECTORIZER
 # =========================================================
 
-model = joblib.load('model/random_forest_model_v6.pkl')
+model = joblib.load('random_forest_model_v6.pkl')
 
-tfidf = joblib.load('model/tfidf_vectorizer_v6.pkl')
+tfidf = joblib.load('tfidf_vectorizer_v6.pkl')
 
 
 # =========================================================
